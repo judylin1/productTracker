@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  main
+    if cookieId
+      include ../partials/header
+      h4 Categories
+      .categories
+        for category in categories
+          a.category(href=('/categories/' +  category._id)) 
+            !{category.name}
+    else
+      div.container
+        div.jumbotron
+          h1.center Product Tracker
+            a(href='/')
+          p
+            a.btn.btn-primary(href='/login') Login
+            a.btn.btn-primary(href='/signup') Sign-Up
