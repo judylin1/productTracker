@@ -72,10 +72,10 @@ if (app.get('env') === 'development') {
   });
 }
 
-// heroku 
-if (app.get('env') === 'production') {
-  app.listen(3000);
-}
+// heroku
+app.configure('production', function() {
+  mongoose.connect('mongodb://' + process.env.MONGOLAB_URI + '/productTracker');
+});
 
 // production error handler
 // no stacktraces leaked to user
