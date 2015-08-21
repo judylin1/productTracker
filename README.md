@@ -16,7 +16,7 @@ If nodemon is not installed, run:
 >npm install -g nodemon
 
 ## Technologies Utilized:
-- JavaScript
+- JavaScript / jQuery
 - Node.JS
 - Express / Jade
 - Monk / MongoDB / Mongoose

@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
 body {
-  color: #666;
+  color: #585858;
   background: url(http://s10.postimg.org/ym4ll5h5l/test.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,7 +38,7 @@ header {
 }
 
 input[type=text], input[type=number], input[type=password] {
-  width: 94%;
+  width: 88%;
 }
 
 input[type=url] {
@@ -62,7 +65,7 @@ input[type='submit'], input[type=button], button, a.button {
 
 a:visited, a:link {
   text-decoration: none;
-  color: #A8A8A8;
+  color: #585858;
 }
 
 a.button {
@@ -102,9 +105,16 @@ a.button {
 }
 
 .btn.btn-primary {
-  margin-left: 13.5em;
+  margin-left: 16em;
+  color: white;
 }
 
-.center {
+.centersub {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.centermain {
+  text-align: center;
+  font-family: 'Alegreya SC', sans-serif;
 }

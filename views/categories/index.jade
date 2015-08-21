@@ -1,18 +1,21 @@
 extends ../layout
 
 block content
-  main
-    if cookieId
-      include ../partials/header
+  if cookieId
+    include ../partials/header
+    main
       h4 Categories
       .categories
         for category in categories
           a.category(href=('/categories/' +  category._id)) 
             !{category.name}
-    else
+  else
+    main
       div.container
         div.jumbotron
-          h1.center Product Tracker
+          h1.centermain Product Tracker
+          h4.centersub Stop throwing money away!
+          h4.centersub Keep track of your product warranties.
             a(href='/')
           p
             a.btn.btn-primary(href='/login') Login
