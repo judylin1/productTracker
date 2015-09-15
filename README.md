@@ -1,7 +1,7 @@
 # Product Tracker
 
 ## Live Demo:
-https://powerful-wildwood-9861.herokuapp.com/
+https://productracker.herokuapp.com/
 
 ## Synopsis:
 Product Tracker is a way for consumers to track the guarantees/warranties of their purchases. Users can add products they intend to purchase and easily keep track of what they've already bought.
